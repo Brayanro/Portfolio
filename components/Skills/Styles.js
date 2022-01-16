@@ -12,7 +12,7 @@ export const Container = styled.div`
 export const Title = styled.h1`
   color: #fff;
   text-align: center;
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   font-weight: 600;
   letter-spacing: 0.12rem;
 `
@@ -36,8 +36,8 @@ export const SkillItem = styled.div`
 `
 
 export const NameSkill = styled.p`
-  color: #B8C1EC;
-  font-size: 1.3rem;
+  color: #00ADB5;
+  font-size: 1.2rem;
   letter-spacing: 0.04rem;
 
   @media only screen and (max-width: 768px) {

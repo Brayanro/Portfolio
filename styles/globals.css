@@ -3,15 +3,18 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background-color: #232946;
+}
+
+body {
+    background-color: #222831;
 }
 
 ::-webkit-scrollbar{
-    width: .70rem;
+    width: 0.60rem;
     background-color: #fff;
-    border-radius: 0.3rem;
+    border-radius: 0.2rem;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: #5584AC;
-    border-radius: 0.3rem;
+    background-color: #00ADB5;
+    border-radius: 0.2rem;
 }

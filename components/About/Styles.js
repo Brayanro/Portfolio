@@ -19,7 +19,7 @@ export const Container = styled.div`
 export const Title = styled.h1`
   color: #fff;
   text-align: center;
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   font-weight: 600;
   letter-spacing: 0.12rem;
 `
@@ -66,54 +66,25 @@ export const ButtonContainer = styled.div`
   }
 `
 
-export const ButtonContact = styled.a`
-    text-decoration: none;
-    margin-top: 10px;
-    font-size: 1rem;
-    padding: 0.25em 1em;
-    border: 2px solid #5584AC;
-    border-radius: 3px;
-    letter-spacing: 0.04rem;
-    cursor: pointer;
-    color: #fff;
-    background: #5584AC;
-    display: flex;
-    align-items: center;
-    svg {
-        margin-left: 0.5rem;
-        background: none;
-        color: #fff;
-        font-size: 1.2rem;
-    }
-
-    &:hover {
-        transition: all 0.3s ease;
-        background: #95D1CC;
-    }
-`
-
 export const ButtonCV = styled.a`
   text-decoration: none;
   margin-top: 10px;
   font-size: 1rem;
-  padding: 0.25em 1em;
-  border: 2px solid #4F7269;
-  border-radius: 3px;
+  padding: 1rem;
+  border-radius: 0.7rem;
   letter-spacing: 0.04rem;
   cursor: pointer;
   color: #fff;
-  background: #4F7269;
+  background: #00ADB5;
   display: flex;
   align-items: center;
   svg {
       margin-left: 0.5rem;
-      background: none;
-      color: #fff;
       font-size: 1.2rem;
   }
 
   &:hover {
       transition: all 0.3s ease;
-      background: #95D1CC;
+      background: #4D796F;
   }
 `

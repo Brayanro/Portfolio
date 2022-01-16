@@ -1,4 +1,4 @@
-import { AiOutlineExport, AiOutlineGithub } from 'react-icons/ai'
+import { IoOpenOutline } from 'react-icons/io5'
 import { portfolio } from '../profile'
 import { ButtonCode, ButtonContainer, ButtonVisit, Card, CardDescription, CardInformation, CardItem, CardTitle, Container, ContainerPortfolio, Image, Title } from './Styles'
 
@@ -17,10 +17,10 @@ const Portfolio = () => {
                                     <CardDescription>{description}</CardDescription>
                                     <ButtonContainer>
                                         <ButtonVisit rel="noopener" href="https://github.com/" target="_blank">
-                                            Demo<AiOutlineExport />
+                                            Demo<IoOpenOutline />
                                         </ButtonVisit>
                                         <ButtonCode rel="noopener" href="https://github.com/" target="_blank">
-                                            Code<AiOutlineGithub />
+                                            Code<IoOpenOutline />
                                         </ButtonCode>
                                     </ButtonContainer>
                                 </CardInformation>

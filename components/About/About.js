@@ -1,5 +1,5 @@
-import { AiOutlineDownload, AiOutlineMail } from 'react-icons/ai';
-import { ButtonContact, ButtonContainer, ButtonCV, Container, ContainerAbout, Description, Education, EducationItem, Photo, Title } from "./Styles";
+import { IoDownloadOutline } from 'react-icons/io5';
+import { ButtonContainer, ButtonCV, Container, ContainerAbout, Description, Education, EducationItem, Photo, Title } from "./Styles";
 
 const About = () => {
     return (
@@ -23,11 +23,8 @@ const About = () => {
                         </EducationItem>
                     </Education>
                     <ButtonContainer>
-                        <ButtonContact href="mailto:brayan7890123@gmail.com">
-                            Contact<AiOutlineMail />
-                        </ButtonContact>
                         <ButtonCV href="/cv.pdf" download>
-                            Download Resume<AiOutlineDownload />
+                            Download CV<IoDownloadOutline />
                         </ButtonCV>
                     </ButtonContainer>
                 </Description>

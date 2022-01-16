@@ -1,4 +1,4 @@
-import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { IoLogoGithub, IoLogoInstagram, IoLogoLinkedin } from 'react-icons/io5';
 import Typed from 'react-typed';
 import { Caption, Container, ContainerHome, Information, Photo, Social, SocialLink, Subtitle, Title } from './Styles';
 
@@ -22,13 +22,13 @@ const AboutMe = () => {
                     </Caption>
                     <Social>
                         <SocialLink rel="noopener" href="https://github.com/Brayanro" target="_blank">
-                            <AiFillGithub />
+                            <IoLogoGithub />
                         </SocialLink>
                         <SocialLink rel="noopener" href="https://www.linkedin.com/in/brayan-rodriguez-montealegre-7ba099224/" target="_blank">
-                            <AiFillLinkedin />
+                            <IoLogoLinkedin />
                         </SocialLink>
-                        <SocialLink rel="noopener" href="https://web.facebook.com/people/Brayan-Rodriguez-Montealegre/100065340333128/" target="_blank">
-                            <AiFillFacebook />
+                        <SocialLink rel="noopener" href="https://www.instagram.com/brayan.rodriguezmontealegre/" target="_blank">
+                            <IoLogoInstagram />
                         </SocialLink>
                     </Social>
                 </Information>

@@ -12,7 +12,7 @@ export const Container = styled.div`
 export const Title = styled.h1`
   color: #fff;
   text-align: center;
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   font-weight: 600;
   letter-spacing: 0.12rem;
 `
@@ -73,20 +73,18 @@ export const Image = styled.img`
 `
 
 export const CardInformation = styled.div`
-  background: #fff;
   border-radius: 5px;
   padding: 0 20px 20px;
 `
 
 export const CardTitle = styled.h3`
-  background: #fff;
   color: #232946;
   letter-spacing: .12rem;
   text-transform: uppercase;
 `
 
 export const CardDescription = styled.p`
-  background: #fff;
+
 `
 
 export const ButtonContainer = styled.div`
@@ -94,27 +92,23 @@ export const ButtonContainer = styled.div`
   justify-content: center;
   gap: 1rem;
   margin-top: 0.3rem;
-  background-color: transparent;
 `
 
 export const ButtonVisit = styled.a`
   text-decoration: none;
   margin-top: 10px;
-  font-size: 1.1em;
-  padding: 0.25em 1em;
-  border: 2px solid #5584AC;
-  border-radius: 3px;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.7rem;
   letter-spacing: 0.04rem;
   cursor: pointer;
   color: #fff;
-  background: #5584AC;
+  background: #00ADB5;
   display: flex;
   align-items: center;
   svg {
       margin-left: 0.5rem;
-      background: none;
-      color: #fff;
-      font-size: 1.2rem;
+      font-size: 1.1rem;
     }
 
     &:hover {
@@ -127,24 +121,21 @@ export const ButtonCode = styled.a`
   text-decoration: none;
   margin-top: 10px;
   font-size: 1rem;
-  padding: 0.25em 1em;
-  border: 2px solid #4F7269;
-  border-radius: 3px;
+  padding: 0.9rem;
+  border-radius: 0.7rem;
   letter-spacing: 0.04rem;
   cursor: pointer;
   color: #fff;
-  background: #4F7269;
+  background: #393E46;
   display: flex;
   align-items: center;
   svg {
     margin-left: 0.5rem;
-    background: none;
-    color: #fff;
     font-size: 1.2rem;
   }
 
   &:hover {
     transition: all 0.3s ease;
-    background: #95D1CC;
+    background: #4D796F;
   }
 `

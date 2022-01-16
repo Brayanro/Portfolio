@@ -42,14 +42,14 @@ export const Subtitle = styled.p`
     line-height: 2rem;
     font-weight: 400;
     margin-top: 2rem;
-    color: #8CBCC5;
+    color: #00ADB5;
 `
 
 export const Caption = styled.h2`
     font-size: 1.5rem;
     font-weight: 500;
     margin-top: 0.5rem;
-    color: #95D1CC;
+    color: #00ADB5;
 `
 
 export const Photo = styled.img`
@@ -82,6 +82,6 @@ export const SocialLink = styled.a`
     
     &:hover {
         transition: all 0.3s ease;
-        color: #95D1CC;
+        color: #00ADB5;
     }
 `

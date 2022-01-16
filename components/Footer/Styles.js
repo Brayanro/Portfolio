@@ -8,10 +8,6 @@ export const Container = styled.div`
     max-width: 1200px;
     text-align: center;
 
-    @media only screen and (min-width: 1200px){
-        max-width: 1100px;
-    }
-
     @media only screen and (max-width: 1024px){
         max-width: 950px;
     }
@@ -49,11 +45,11 @@ export const Social = styled.div`
 export const SocialLink = styled.a`
     cursor: pointer;
     padding: 0 0.5rem;
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: #fff;
     
     &:hover {
         transition: all 0.3s ease;
-        color: #95D1CC;
+        color: #00ADB5
     }
 `
