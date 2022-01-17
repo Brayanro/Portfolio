@@ -78,13 +78,13 @@ export const CardInformation = styled.div`
 `
 
 export const CardTitle = styled.h3`
-  color: #232946;
+  color: #222831;
   letter-spacing: .12rem;
   text-transform: uppercase;
 `
 
 export const CardDescription = styled.p`
-
+  color: #393E46;
 `
 
 export const ButtonContainer = styled.div`
@@ -97,7 +97,7 @@ export const ButtonContainer = styled.div`
 export const ButtonVisit = styled.a`
   text-decoration: none;
   margin-top: 10px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding: 0.5rem 1rem;
   border-radius: 0.7rem;
   letter-spacing: 0.04rem;
@@ -113,14 +113,14 @@ export const ButtonVisit = styled.a`
 
     &:hover {
       transition: all 0.3s ease;
-      background: #95D1CC;
+      background: #00D7E2;
     }
 `
 
 export const ButtonCode = styled.a`
   text-decoration: none;
   margin-top: 10px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding: 0.9rem;
   border-radius: 0.7rem;
   letter-spacing: 0.04rem;
@@ -136,6 +136,6 @@ export const ButtonCode = styled.a`
 
   &:hover {
     transition: all 0.3s ease;
-    background: #4D796F;
+    background: #5E6673;
   }
 `

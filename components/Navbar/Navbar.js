@@ -1,13 +1,19 @@
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import { useState } from 'react'
-import { ContainerHeader, Hamburger, Logo, Menu, MenuLink, Nav } from './Styles'
+import { IoBriefcase, IoConstruct, IoHome, IoMail, IoPerson } from 'react-icons/io5'
+import { ContainerNav, Hamburger, Logo, Nav, NavLink, NavMenu } from './Styles'
 
 const Navbar = () => {
+
     const [isOpen, setIsOpen] = useState(false)
+
+    const router = useRouter()
+
     return (
-        <ContainerHeader>
+        <ContainerNav>
             <Nav>
-                <Link href="/">
+                <Link href='/'>
                     <Logo>Brayan</Logo>
                 </Link>
                 <Hamburger onClick={() => setIsOpen(!isOpen)}>
@@ -16,22 +22,40 @@ const Navbar = () => {
                     <span />
                     <span />
                 </Hamburger>
-                <Menu isOpen={isOpen}>
+                <NavMenu isOpen={isOpen}>
+                    <Link href='#home'>
+                        <NavLink
+                            className={router.asPath === '/#home' ? 'active' : ''}>
+                            <IoHome style={{ marginBottom: '3px' }} />Home
+                        </NavLink>
+                    </Link>
                     <Link href='#about'>
-                        <MenuLink>About me</MenuLink>
+                        <NavLink
+                            className={router.asPath === '/#about' ? 'active' : ''}>
+                            <IoPerson style={{ marginBottom: '3px' }} />About me
+                        </NavLink>
                     </Link>
                     <Link href='#skills'>
-                        <MenuLink>Skills</MenuLink>
+                        <NavLink
+                            className={router.asPath === '/#skills' ? 'active' : ''}>
+                            <IoConstruct style={{ marginBottom: '3px' }} />Skills
+                        </NavLink>
                     </Link>
                     <Link href='#portfolio'>
-                        <MenuLink>Portfolio</MenuLink>
+                        <NavLink
+                            className={router.asPath === '/#portfolio' ? 'active' : ''}>
+                            <IoBriefcase style={{ marginBottom: '3px' }} />Portfolio
+                        </NavLink>
                     </Link>
                     <Link href='#contact'>
-                        <MenuLink>Contact</MenuLink>
+                        <NavLink
+                            className={router.asPath === '/#contact' ? 'active' : ''}>
+                            <IoMail style={{ marginBottom: '1px' }} />Contact
+                        </NavLink>
                     </Link>
-                </Menu>
+                </NavMenu>
             </Nav>
-        </ContainerHeader>
+        </ContainerNav>
     )
 }
 

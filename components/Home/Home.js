@@ -4,7 +4,7 @@ import { Caption, Container, ContainerHome, Information, Photo, Social, SocialLi
 
 const AboutMe = () => {
     return (
-        <ContainerHome>
+        <ContainerHome id='home'>
             <Container>
                 <Information>
                     <Subtitle>Hello, My Name is</Subtitle>
@@ -21,18 +21,27 @@ const AboutMe = () => {
                         />
                     </Caption>
                     <Social>
-                        <SocialLink rel="noopener" href="https://github.com/Brayanro" target="_blank">
+                        <SocialLink
+                            rel='noopener'
+                            href='https://github.com/Brayanro'
+                            target='_blank'>
                             <IoLogoGithub />
                         </SocialLink>
-                        <SocialLink rel="noopener" href="https://www.linkedin.com/in/brayan-rodriguez-montealegre-7ba099224/" target="_blank">
+                        <SocialLink
+                            rel='noopener'
+                            href='https://www.linkedin.com/in/brayan-rodriguez-montealegre-7ba099224/'
+                            target='_blank'>
                             <IoLogoLinkedin />
                         </SocialLink>
-                        <SocialLink rel="noopener" href="https://www.instagram.com/brayan.rodriguezmontealegre/" target="_blank">
+                        <SocialLink
+                            rel='noopener'
+                            href='https://www.instagram.com/brayan.rodriguezmontealegre/'
+                            target='_blank'>
                             <IoLogoInstagram />
                         </SocialLink>
                     </Social>
                 </Information>
-                <Photo src="/home.png" />
+                <Photo src='/home.png' />
             </Container>
         </ContainerHome>
     )

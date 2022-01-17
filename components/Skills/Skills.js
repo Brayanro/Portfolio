@@ -3,14 +3,14 @@ import { Container, ContainerSkills, ImageSkill, NameSkill, SkillItem, SkillsLis
 
 const Skills = () => {
     return (
-        <ContainerSkills id="skills">
+        <ContainerSkills id='skills'>
             <Title>Skills</Title>
             <Container>
                 <SkillsList>
                     {
                         skills.map(({ skill, image }, i) => (
                             <SkillItem key={i}>
-                                <ImageSkill src={image} alt="Skills" />
+                                <ImageSkill src={image} alt='Skills' />
                                 <NameSkill>{skill}</NameSkill>
                             </SkillItem>
                         ))

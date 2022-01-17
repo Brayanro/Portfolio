@@ -1,12 +1,12 @@
 import { IoDownloadOutline } from 'react-icons/io5';
-import { ButtonContainer, ButtonCV, Container, ContainerAbout, Description, Education, EducationItem, Photo, Title } from "./Styles";
+import { ButtonContainer, ButtonCV, Container, ContainerAbout, Description, Education, EducationItem, Photo, Title } from './Styles';
 
 const About = () => {
     return (
-        <ContainerAbout id="about">
+        <ContainerAbout id='about'>
             <Title>About Me</Title>
             <Container>
-                <Photo src="/about.jpg" />
+                <Photo src='/about.jpg' />
                 <Description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quos, quae asperiores, commodi consequatur ab, quidem accusantium pariatur laboriosam repellendus corrupti. Esse est earum inventore laudantium, enim odit ipsam ad.
                     <br />
                     <br />
@@ -23,7 +23,7 @@ const About = () => {
                         </EducationItem>
                     </Education>
                     <ButtonContainer>
-                        <ButtonCV href="/cv.pdf" download>
+                        <ButtonCV href='/cv.pdf' download>
                             Download CV<IoDownloadOutline />
                         </ButtonCV>
                     </ButtonContainer>

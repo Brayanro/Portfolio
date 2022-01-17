@@ -46,14 +46,11 @@ export const Description = styled.div`
 `
 
 export const Education = styled.ul`
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
+  margin: 1rem;
 `
 
 export const EducationItem = styled.li`
-  display: flex;
-  align-items: center;
+  padding-top: 0.3rem;
 `
 
 export const ButtonContainer = styled.div`
@@ -69,7 +66,7 @@ export const ButtonContainer = styled.div`
 export const ButtonCV = styled.a`
   text-decoration: none;
   margin-top: 10px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding: 1rem;
   border-radius: 0.7rem;
   letter-spacing: 0.04rem;
@@ -85,6 +82,6 @@ export const ButtonCV = styled.a`
 
   &:hover {
       transition: all 0.3s ease;
-      background: #4D796F;
+      background: #00D7E2;
   }
 `

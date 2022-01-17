@@ -97,6 +97,6 @@ export const ContactButton = styled.button`
 
   &:hover {
         transition: all 0.3s ease;
-        background: #95D1CC;
+        background: #00D7E2;
   }
 `

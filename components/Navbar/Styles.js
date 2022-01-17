@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const ContainerHeader = styled.header`
+export const ContainerNav = styled.nav`
     background-color: #222831;
     position: fixed;
     top: 0;
@@ -50,7 +50,7 @@ export const Hamburger = styled.div`
     }
 `
 
-export const Menu = styled.div`
+export const NavMenu = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,14 +65,25 @@ export const Menu = styled.div`
     }
 `
 
-export const MenuLink = styled.a`
+export const NavLink = styled.a`
     color: #fff;
-    padding: 1rem 2rem;
+    padding: 1rem 1.5rem;
     cursor: pointer;
     text-align: center;
     transition: 0.3s all ease-in-out;
     font-size: 0.9rem;
-    letter-spacing: 0.04rem;
+    letter-spacing: 0.02rem;
+
+    svg {
+      margin-right: 0.15rem;
+      font-size: 0.9rem;
+      vertical-align: middle;
+    }
+
+    &.active {
+        transition: all 0.3s ease;
+        color: #00ADB5;
+    }
 
     &:hover {
         transition: all 0.3s ease;

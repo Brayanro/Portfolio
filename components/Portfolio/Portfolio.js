@@ -11,15 +11,21 @@ const Portfolio = () => {
                     {
                         portfolio.map(({ title, image, description }, i) => (
                             <CardItem key={i}>
-                                <Image src={image} alt="" />
+                                <Image src={image} alt='Portfolio image' />
                                 <CardInformation>
                                     <CardTitle>{title}</CardTitle>
                                     <CardDescription>{description}</CardDescription>
                                     <ButtonContainer>
-                                        <ButtonVisit rel="noopener" href="https://github.com/" target="_blank">
+                                        <ButtonVisit
+                                            rel="noopener"
+                                            href="https://github.com/"
+                                            target="_blank">
                                             Demo<IoOpenOutline />
                                         </ButtonVisit>
-                                        <ButtonCode rel="noopener" href="https://github.com/" target="_blank">
+                                        <ButtonCode
+                                            rel="noopener"
+                                            href="https://github.com/"
+                                            target="_blank">
                                             Code<IoOpenOutline />
                                         </ButtonCode>
                                     </ButtonContainer>
