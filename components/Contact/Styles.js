@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 export const ContainerContact = styled.section`
   padding: 70px 0;
@@ -44,6 +44,10 @@ export const ContainerForm = styled.div`
 export const ContactForm = styled.form`
   display: grid;
   gap: 1.3rem;
+
+  @media only screen and (max-width: 1200px) {
+    margin: 2rem;
+  }
 `
 
 export const ContactContent = styled.div`
@@ -90,6 +94,7 @@ export const ContactButton = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
+  
   svg {
         margin-left: 0.5rem;
         font-size: 1.2rem;

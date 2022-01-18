@@ -35,9 +35,9 @@ export const SkillItem = styled.div`
   padding-top: 1.5rem;
 `
 
-export const NameSkill = styled.p`
+export const NameSkill = styled.span`
   color: #00ADB5;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   letter-spacing: 0.04rem;
 
   @media only screen and (max-width: 768px) {
@@ -47,9 +47,9 @@ export const NameSkill = styled.p`
 
 export const ImageSkill = styled.img`
   object-fit: contain;
-  width: 32%;
+  width: 30%;
 
   @media only screen and (max-width: 768px) {
-    width: 30%;
+    width: 28%;
   }
 `

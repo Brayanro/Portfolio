@@ -1,6 +1,6 @@
-import { IoLogoGithub, IoLogoInstagram, IoLogoLinkedin } from 'react-icons/io5';
-import Typed from 'react-typed';
-import { Caption, Container, ContainerHome, Information, Photo, Social, SocialLink, Subtitle, Title } from './Styles';
+import { IoLogoGithub, IoLogoInstagram, IoLogoLinkedin } from 'react-icons/io5'
+import Typed from 'react-typed'
+import { Caption, Container, ContainerHome, Information, Photo, Social, SocialLink, Subtitle, Title } from './Styles'
 
 const AboutMe = () => {
     return (

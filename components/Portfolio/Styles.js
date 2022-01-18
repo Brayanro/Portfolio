@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 export const ContainerPortfolio = styled.section`
   padding: 70px 0;
@@ -23,11 +23,11 @@ export const Card = styled.div`
   grid-gap: 2rem;
   place-items: center;
   
-  @media only screen and (min-width: 1200px){
+  @media only screen and (min-width: 1200px) {
     margin: 30px;
   }
 
-  @media only screen and (max-width: 1024px){
+  @media only screen and (max-width: 1024px) {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -106,12 +106,13 @@ export const ButtonVisit = styled.a`
   background: #00ADB5;
   display: flex;
   align-items: center;
+
   svg {
       margin-left: 0.5rem;
       font-size: 1.1rem;
     }
 
-    &:hover {
+  &:hover {
       transition: all 0.3s ease;
       background: #00D7E2;
     }
@@ -129,6 +130,7 @@ export const ButtonCode = styled.a`
   background: #393E46;
   display: flex;
   align-items: center;
+  
   svg {
     margin-left: 0.5rem;
     font-size: 1.2rem;

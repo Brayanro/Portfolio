@@ -1,5 +1,5 @@
-import { IoDownloadOutline } from 'react-icons/io5';
-import { ButtonContainer, ButtonCV, Container, ContainerAbout, Description, Education, EducationItem, Photo, Title } from './Styles';
+import { IoDownloadOutline } from 'react-icons/io5'
+import { ButtonContainer, ButtonCV, Container, ContainerAbout, Description, Education, EducationItem, Photo, Title } from './Styles'
 
 const About = () => {
     return (

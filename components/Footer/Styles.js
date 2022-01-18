@@ -8,7 +8,7 @@ export const Container = styled.div`
     max-width: 1200px;
     text-align: center;
 
-    @media only screen and (max-width: 1024px){
+    @media only screen and (max-width: 1024px) {
         max-width: 950px;
     }
 
@@ -25,7 +25,7 @@ export const Container = styled.div`
     }
 
     @media only screen and (max-width: 500px) {
-        max-width: 400px;
+        max-width: 380px;
     }
 
     @media only screen and (max-width: 375px) {
@@ -35,7 +35,11 @@ export const Container = styled.div`
 
 export const FooterInfo = styled.p`
     color: #fff;
-    font-size: 1rem;
+    font-size: 0.9rem;
+`
+
+export const FooterSpan = styled.span`
+    color: #00ADB5;
 `
 
 export const Social = styled.div`
@@ -50,6 +54,6 @@ export const SocialLink = styled.a`
     
     &:hover {
         transition: all 0.3s ease;
-        color: #00ADB5
+        color: #00ADB5;
     }
 `

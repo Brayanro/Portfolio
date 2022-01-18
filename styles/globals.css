@@ -10,7 +10,7 @@ body {
 }
 
 ::-webkit-scrollbar{
-    width: 0.60rem;
+    width: 0.5rem;
     background-color: #fff;
     border-radius: 0.2rem;
 }

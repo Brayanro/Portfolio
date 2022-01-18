@@ -1,8 +1,8 @@
-import emailjs from '@emailjs/browser';
-import React, { useRef } from 'react';
-import toast, { Toaster } from 'react-hot-toast';
-import { IoSend } from 'react-icons/io5';
-import { ContactButton, ContactContent, ContactForm, ContactImage, Container, ContainerContact, ContainerForm, Input, Label, Subtitle, TextArea, Title } from './Styles';
+import emailjs from '@emailjs/browser'
+import React, { useRef } from 'react'
+import toast, { Toaster } from 'react-hot-toast'
+import { IoSend } from 'react-icons/io5'
+import { ContactButton, ContactContent, ContactForm, ContactImage, Container, ContainerContact, ContainerForm, Input, Label, Subtitle, TextArea, Title } from './Styles'
 
 const Contact = () => {
 

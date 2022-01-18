@@ -9,7 +9,7 @@ const Portfolio = () => {
             <Container>
                 <Card>
                     {
-                        portfolio.map(({ title, image, description }, i) => (
+                        portfolio.map(({ title, image, description, hrefdemo, hrefcode }, i) => (
                             <CardItem key={i}>
                                 <Image src={image} alt='Portfolio image' />
                                 <CardInformation>
@@ -18,13 +18,13 @@ const Portfolio = () => {
                                     <ButtonContainer>
                                         <ButtonVisit
                                             rel="noopener"
-                                            href="https://github.com/"
+                                            href={hrefdemo}
                                             target="_blank">
                                             Demo<IoOpenOutline />
                                         </ButtonVisit>
                                         <ButtonCode
                                             rel="noopener"
-                                            href="https://github.com/"
+                                            href={hrefcode}
                                             target="_blank">
                                             Code<IoOpenOutline />
                                         </ButtonCode>

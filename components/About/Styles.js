@@ -75,6 +75,7 @@ export const ButtonCV = styled.a`
   background: #00ADB5;
   display: flex;
   align-items: center;
+  
   svg {
       margin-left: 0.5rem;
       font-size: 1.2rem;

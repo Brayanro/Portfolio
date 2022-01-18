@@ -1,5 +1,5 @@
-import { IoLogoGithub, IoLogoInstagram, IoLogoLinkedin } from 'react-icons/io5';
-import { Container, FooterContainer, FooterInfo, Social, SocialLink } from './Styles';
+import { IoLogoGithub, IoLogoInstagram, IoLogoLinkedin } from 'react-icons/io5'
+import { Container, FooterContainer, FooterInfo, FooterSpan, Social, SocialLink } from './Styles'
 
 const Footer = () => {
     return (
@@ -7,7 +7,7 @@ const Footer = () => {
             <Container>
                 <hr></hr>
                 <FooterInfo>
-                    Made with ❤️ by Brayan Rodriguez Montealegre
+                    Made with ❤️ by <FooterSpan>Brayan Rodriguez Montealegre</FooterSpan>
                 </FooterInfo>
                 <Social>
                     <SocialLink

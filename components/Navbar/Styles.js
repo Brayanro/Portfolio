@@ -7,8 +7,7 @@ export const ContainerNav = styled.nav`
     left: 0;
     right: 0;
     z-index: 1;
-    /* backdrop-filter: blur(10px);
-    box-shadow: rgb(0 0 0 / 12%) 0px 0px 10px; */
+    box-shadow: rgb(0 0 0 / 15%) 0px 0px 8px;
 `
 
 export const Nav = styled.div`
