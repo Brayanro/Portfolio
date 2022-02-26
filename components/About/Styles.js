@@ -82,7 +82,9 @@ export const ButtonCV = styled.a`
   }
 
   &:hover {
+      border: 0.125rem solid #00D7E2;
+      color: #00D7E2;
+      background-color: #222831;
       transition: all 0.3s ease;
-      background: #00D7E2;
   }
 `

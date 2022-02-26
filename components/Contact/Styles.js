@@ -96,12 +96,14 @@ export const ContactButton = styled.button`
   align-items: center;
   
   svg {
-        margin-left: 0.5rem;
-        font-size: 1.2rem;
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
   }
 
   &:hover {
-        transition: all 0.3s ease;
-        background: #00D7E2;
+    border: 0.125rem solid #00D7E2;
+    color: #00D7E2;
+    background-color: #222831;
+    transition: all 0.3s ease;
   }
 `

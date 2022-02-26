@@ -42,7 +42,7 @@ export const Card = styled.div`
 `
 
 export const CardItem = styled.article`
-  background: #fff;
+  background-color: #fff;
   border: none;
   box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
   border-radius: 5px;
@@ -103,18 +103,20 @@ export const ButtonVisit = styled.a`
   letter-spacing: 0.04rem;
   cursor: pointer;
   color: #fff;
-  background: #00ADB5;
+  background-color: #00ADB5;
   display: flex;
   align-items: center;
 
   svg {
-      margin-left: 0.5rem;
-      font-size: 1.1rem;
+    margin-left: 0.5rem;
+    font-size: 1.1rem;
     }
 
   &:hover {
+      border: 0.125rem solid #00ADB5;
+      color: #00ADB5;
+      background-color: #F8F9F9;
       transition: all 0.3s ease;
-      background: #00D7E2;
     }
 `
 
@@ -127,7 +129,7 @@ export const ButtonCode = styled.a`
   letter-spacing: 0.04rem;
   cursor: pointer;
   color: #fff;
-  background: #393E46;
+  background-color: #393E46;
   display: flex;
   align-items: center;
   
@@ -137,7 +139,9 @@ export const ButtonCode = styled.a`
   }
 
   &:hover {
-    transition: all 0.3s ease;
-    background: #5E6673;
+      border: 0.125rem solid #222831;
+      color: #222831;
+      background-color: #F8F9F9;
+      transition: all 0.3s ease;
   }
 `

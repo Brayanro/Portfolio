@@ -1,4 +1,4 @@
-import { IoLogoGithub, IoLogoInstagram, IoLogoLinkedin } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoLinkedin, IoLogoTwitter } from 'react-icons/io5'
 import Typed from 'react-typed'
 import { Caption, Container, ContainerHome, Information, Photo, Social, SocialLink, Subtitle, Title } from './Styles'
 
@@ -35,9 +35,9 @@ const AboutMe = () => {
                         </SocialLink>
                         <SocialLink
                             rel='noopener'
-                            href='https://www.instagram.com/brayan.rodriguezmontealegre/'
+                            href='https://twitter.com/BrayanRodMonte'
                             target='_blank'>
-                            <IoLogoInstagram />
+                            <IoLogoTwitter />
                         </SocialLink>
                     </Social>
                 </Information>
