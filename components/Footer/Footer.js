@@ -18,7 +18,7 @@ const Footer = () => {
                     </SocialLink>
                     <SocialLink
                         rel='noopener'
-                        href='https://www.linkedin.com/in/brayan-rodriguez-montealegre-7ba099224/'
+                        href='https://www.linkedin.com/in/brayanromon/'
                         target='_blank'>
                         <IoLogoLinkedin />
                     </SocialLink>
