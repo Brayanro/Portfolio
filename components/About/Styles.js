@@ -45,6 +45,9 @@ export const Description = styled.div`
   }
 `
 
+export const AboutMe = styled.p`
+`
+
 export const Education = styled.ul`
   margin: 1rem;
 `

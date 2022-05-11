@@ -1,5 +1,5 @@
 import { IoDownloadOutline } from 'react-icons/io5'
-import { ButtonContainer, ButtonCV, Container, ContainerAbout, Description, Education, EducationItem, Photo, Title } from './Styles'
+import { AboutMe, ButtonContainer, ButtonCV, Container, ContainerAbout, Description, Education, EducationItem, Photo, Title } from './Styles'
 
 const About = () => {
     return (
@@ -7,19 +7,22 @@ const About = () => {
             <Title>About Me</Title>
             <Container>
                 <Photo src='/about.jpg' />
-                <Description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quos, quae asperiores, commodi consequatur ab, quidem accusantium pariatur laboriosam repellendus corrupti. Esse est earum inventore laudantium, enim odit ipsam ad.
-                    <br />
+                <Description>
+                    <AboutMe>I am a frontend developer with knowledge in web technologies. Passionate about software development, good code and design practices, I keep in constant learning. I consider myself a persistent, cooperative, productive person who loves to work in a team. I am a software engineering student and I am currently in the eighth semester.</AboutMe>
                     <br />
                     <b>Education:</b>
                     <Education>
                         <EducationItem>
-                            Software Engineering - Universidad Surcolombiana
+                            Software Engineering - Universidad Surcolombiana - Actually
                         </EducationItem>
                         <EducationItem>
-                            React-Guía definitiva: hooks router redux next+Proyectos - Udemy
+                            GIT+GitHub: Todo un sistema de control de versiones de cero - 2022
                         </EducationItem>
                         <EducationItem>
-                            Scrum Fundamentals Certified - SCRUMstudy
+                            React-Guía definitiva: hooks router redux next+Proyectos - Udemy - 2021
+                        </EducationItem>
+                        <EducationItem>
+                            Scrum Fundamentals Certified - SCRUMstudy - 2021
                         </EducationItem>
                     </Education>
                     <ButtonContainer>
