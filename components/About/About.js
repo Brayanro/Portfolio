@@ -30,7 +30,7 @@ const About = () => {
                         </EducationItem>
                     </Education>
                     <ButtonContainer>
-                        <ButtonCV href='/cv.pdf' download>
+                        <ButtonCV href='/CV.pdf' download>
                             Download CV<IoDownloadOutline />
                         </ButtonCV>
                     </ButtonContainer>
