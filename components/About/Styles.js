@@ -24,15 +24,25 @@ export const Title = styled.h1`
   letter-spacing: 0.12rem;
 `
 
+export const ContainerPhoto = styled.div`
+  display: flex;
+  justify-content: center;
+`
+
+export const BackgroundPhoto = styled.div`
+  background: #00ADB5;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: clamp(250px, 80%, 400px);
+  height: fit-content;
+  border-radius: 0.7rem;
+`
+
 export const Photo = styled.img`
-  width: 350px;
-  border-radius: 0.5rem;
-  justify-self: center;
-  align-self: center;
-  
-  @media only screen and (max-width: 768px) {
-    width: 250px;      
-  }
+  width: 100%;
+  object-fit: contain;
+  height: auto;
 `
 
 export const Description = styled.div`

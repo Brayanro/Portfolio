@@ -1,40 +1,45 @@
+/* An array of objects. */
 export const skills = [
     {
         skill: 'HTML',
-        image: 'html.svg',
+        image: 'html.svg'
     },
     {
         skill: 'CSS',
-        image: 'css.svg',
+        image: 'css.svg'
     },
     {
         skill: 'JavaScript',
-        image: 'javascript.svg',
+        image: 'javascript.svg'
     },
     {
         skill: 'React.js',
-        image: 'react.svg',
+        image: 'react.svg'
     },
     {
         skill: 'Next.js',
-        image: 'next.svg',
+        image: 'next.svg'
     },
     {
         skill: 'Git',
-        image: 'git.svg',
+        image: 'git.svg'
     },
     {
         skill: 'Bootstrap',
-        image: 'bootstrap.svg',
+        image: 'bootstrap.svg'
     },
     {
         skill: 'Figma',
-        image: 'figma.svg',
+        image: 'figma.svg'
     },
     {
         skill: 'Styled Components',
-        image: 'styled.png',
+        image: 'styled.png'
     },
+    {
+        skill: 'MySQL',
+        image: 'mysql.svg'
+    }
 ]
 
 export const portfolio = [
@@ -43,41 +48,20 @@ export const portfolio = [
         image: 'portfolio.png',
         description: 'Personal website built with Next.js, Styled-Components.',
         hrefdemo: 'https://portfolio-brayanro.vercel.app',
-        hrefcode: 'https://github.com/Brayanro/Portfolio',
+        hrefcode: 'https://github.com/Brayanro/Portfolio'
     },
     {
         title: 'Weather App',
         image: 'weather.png',
         description: 'Weather App with HTML, CSS, JavaScript.',
         hrefdemo: 'https://brayanro.github.io/Weather-App-JavaScript/',
-        hrefcode: 'https://github.com/Brayanro/Weather-App-JavaScript',
+        hrefcode: 'https://github.com/Brayanro/Weather-App-JavaScript'
     },
     {
         title: 'Huddle Landing Page',
         image: 'huddle.png',
         description: 'Landing Page of the Frontend Mentor Challenge built with HTML, CSS.',
         hrefdemo: 'https://brayanro.github.io/Huddle-landing-page/',
-        hrefcode: 'https://github.com/Brayanro/Huddle-landing-page',
-    },
-    // {
-    //     title: 'Portfolio',
-    //     image: 'portfolio.png',
-    //     description: 'Lorem ipsum dolor sit amet consectetur',
-    //     hrefdemo: 'https://github.com',
-    //     hrefcode: 'https://github.com',
-    // },
-    // {
-    //     title: 'Portfolio',
-    //     image: 'portfolio.png',
-    //     description: 'Lorem ipsum dolor sit amet consectetur',
-    //     hrefdemo: 'https://github.com',
-    //     hrefcode: 'https://github.com',
-    // },
-    // {
-    //     title: 'Portfolio',
-    //     image: 'portfolio.png',
-    //     description: 'Lorem ipsum dolor sit amet consectetur',
-    //     hrefdemo: 'https://github.com',
-    //     hrefcode: 'https://github.com',
-    // },
+        hrefcode: 'https://github.com/Brayanro/Huddle-landing-page'
+    }
 ]

@@ -1,12 +1,16 @@
 import { IoDownloadOutline } from 'react-icons/io5'
-import { AboutMe, ButtonContainer, ButtonCV, Container, ContainerAbout, Description, Education, EducationItem, Photo, Title } from './Styles'
+import { AboutMe, BackgroundPhoto, ButtonContainer, ButtonCV, Container, ContainerAbout, ContainerPhoto, Description, Education, EducationItem, Photo, Title } from './Styles'
 
 const About = () => {
     return (
         <ContainerAbout id='about'>
             <Title>About Me</Title>
             <Container>
-                <Photo src='/about.jpg' />
+                <ContainerPhoto>
+                    <BackgroundPhoto>
+                        <Photo src='/aboutme.png' />
+                    </BackgroundPhoto>
+                </ContainerPhoto>
                 <Description>
                     <AboutMe>I am a frontend developer with knowledge in web technologies. Passionate about software development, good code and design practices, I keep in constant learning. I consider myself a persistent, cooperative, productive person who loves to work in a team. I am a software engineering student and I am currently in the eighth semester.</AboutMe>
                     <br />
