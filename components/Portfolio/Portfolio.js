@@ -4,7 +4,7 @@ import { ButtonCode, ButtonContainer, ButtonVisit, Card, CardDescription, CardIn
 
 const Portfolio = () => {
     return (
-        <ContainerPortfolio id='portfolio'>
+        <ContainerPortfolio name='portfolio'>
             <Title>Portfolio</Title>
             <Container>
                 <Card>

@@ -18,17 +18,12 @@ export const Nav = styled.div`
     flex-wrap: wrap;
 `
 
-export const Logo = styled.a`
-    cursor: pointer;
+export const Logo = styled.h2`
     padding: 1rem 0;
     color: #fff;
     font-weight: 800;
-    font-size: 1.7rem;
-
-    &:hover {
-        transition: all 0.3s ease;
-        color: #95D1CC;
-    }
+    font-size: 2rem;
+    text-decoration: none;
 `
 
 export const Hamburger = styled.div`
@@ -49,7 +44,7 @@ export const Hamburger = styled.div`
     }
 `
 
-export const NavMenu = styled.div`
+export const NavMenu = styled.ul`
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,14 +59,15 @@ export const NavMenu = styled.div`
     }
 `
 
-export const NavLink = styled.a`
+export const NavLink = styled.li`
     color: #fff;
     padding: 1rem 1.5rem;
     cursor: pointer;
     text-align: center;
     transition: 0.3s all ease-in-out;
-    font-size: 0.9rem;
+    font-size: 1rem;
     letter-spacing: 0.02rem;
+    list-style: none;
 
     svg {
       margin-right: 0.15rem;
@@ -79,13 +75,26 @@ export const NavLink = styled.a`
       vertical-align: middle;
     }
 
-    &.active {
-        transition: all 0.3s ease;
+    &:hover {
         color: #00ADB5;
     }
 
-    &:hover {
+    &::after{
+        content: '';
+        width: 0;
+        height:0.25rem;
+        display: block;
+        background-color: #00ADB5;
+        border-radius: 0.5rem;
+    }
+
+    &:hover::after{
+        content: '';
+        width: 100%;
+        height:0.25rem;
+        display: block;
+        background-color: #00ADB5;
+        border-radius: 0.5rem;
         transition: all 0.3s ease;
-        color: #00ADB5;
     }
 `

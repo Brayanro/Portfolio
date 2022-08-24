@@ -33,7 +33,7 @@ const Contact = () => {
     };
 
     return (
-        <ContainerContact id='contact'>
+        <ContainerContact name='contact'>
             <Title>Contact</Title>
             <Subtitle>Get in touch</Subtitle>
             <Container>

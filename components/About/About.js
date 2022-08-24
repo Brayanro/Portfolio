@@ -3,7 +3,7 @@ import { AboutMe, BackgroundPhoto, ButtonContainer, ButtonCV, Container, Contain
 
 const About = () => {
     return (
-        <ContainerAbout id='about'>
+        <ContainerAbout name='about'>
             <Title>About Me</Title>
             <Container>
                 <ContainerPhoto>

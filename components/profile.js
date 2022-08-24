@@ -29,8 +29,8 @@ export const skills = [
         image: 'bootstrap.svg'
     },
     {
-        skill: 'Figma',
-        image: 'figma.svg'
+        skill: 'TailwindCSS',
+        image: 'tailwind.svg'
     },
     {
         skill: 'Styled Components',
@@ -39,6 +39,14 @@ export const skills = [
     {
         skill: 'MySQL',
         image: 'mysql.svg'
+    },
+    {
+        skill: 'Firebase',
+        image: 'firebase.svg'
+    },
+    {
+        skill: 'Figma',
+        image: 'figma.svg'
     }
 ]
 

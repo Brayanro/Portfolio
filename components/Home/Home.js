@@ -4,7 +4,7 @@ import { Caption, Container, ContainerHome, Information, Photo, Social, SocialLi
 
 const AboutMe = () => {
     return (
-        <ContainerHome id='home'>
+        <ContainerHome name='home'>
             <Container>
                 <Information>
                     <Subtitle>Hello, My Name is</Subtitle>
