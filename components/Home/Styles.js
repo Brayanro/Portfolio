@@ -33,7 +33,11 @@ export const Title = styled.h1`
     color: #fff;
 
     @media only screen and (max-width: 568px) {
-        font-size: 3.5rem;
+        font-size: 3rem;
+    }
+
+    @media only screen and (max-width: 320px) {
+        font-size: 2.5rem;
     }
 `
 
@@ -76,7 +80,7 @@ export const Social = styled.div`
 export const SocialLink = styled.a`
     cursor: pointer;
     padding: 0 0.5rem;
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #fff;
     
     &:hover {
