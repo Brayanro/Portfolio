@@ -17,15 +17,15 @@ const Portfolio = () => {
                                     <CardDescription>{description}</CardDescription>
                                     <ButtonContainer>
                                         <ButtonVisit
-                                            rel="noopener"
+                                            rel='noopener'
                                             href={hrefdemo}
-                                            target="_blank">
+                                            target='_blank'>
                                             Demo<IoOpenOutline />
                                         </ButtonVisit>
                                         <ButtonCode
-                                            rel="noopener"
+                                            rel='noopener'
                                             href={hrefcode}
-                                            target="_blank">
+                                            target='_blank'>
                                             Code<IoOpenOutline />
                                         </ButtonCode>
                                     </ButtonContainer>
