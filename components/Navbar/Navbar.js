@@ -23,7 +23,7 @@ const Navbar = () => {
                             smooth
                             duration={500}
                         >
-                            <IoHome style={{ marginBottom: '3px' }} />Home
+                            <IoHome style={{ marginBottom: '3px' }} />Inicio
                         </Link>
                     </NavLink>
                     <NavLink>
@@ -33,7 +33,7 @@ const Navbar = () => {
                             offset={-10}
                             duration={500}
                         >
-                            <IoPerson style={{ marginBottom: '3px' }} />About me
+                            <IoPerson style={{ marginBottom: '3px' }} />Sobre mi
                         </Link>
                     </NavLink>
                     <NavLink>
@@ -43,7 +43,7 @@ const Navbar = () => {
                             offset={-10}
                             duration={500}
                         >
-                            <IoConstruct style={{ marginBottom: '3px' }} />Skills
+                            <IoConstruct style={{ marginBottom: '3px' }} />Habilidades
                         </Link>
                     </NavLink>
                     <NavLink>
@@ -53,7 +53,7 @@ const Navbar = () => {
                             offset={-10}
                             duration={500}
                         >
-                            <IoBriefcase style={{ marginBottom: '3px' }} />Portfolio
+                            <IoBriefcase style={{ marginBottom: '3px' }} />Portafolio
                         </Link>
                     </NavLink>
                     <NavLink>
@@ -63,7 +63,7 @@ const Navbar = () => {
                             offset={-10}
                             duration={500}
                         >
-                            <IoMail style={{ marginBottom: '1px' }} />Contact
+                            <IoMail style={{ marginBottom: '1px' }} />Contacto
                         </Link>
                     </NavLink>
                 </NavMenu>

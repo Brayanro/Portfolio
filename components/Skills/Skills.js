@@ -4,7 +4,7 @@ import { Container, ContainerSkills, ImageSkill, NameSkill, SkillItem, SkillsLis
 const Skills = () => {
     return (
         <ContainerSkills name='skills'>
-            <Title>Skills</Title>
+            <Title>Habilidades</Title>
             <Container>
                 <SkillsList>
                     {

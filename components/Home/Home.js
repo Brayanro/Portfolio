@@ -7,13 +7,13 @@ const AboutMe = () => {
         <ContainerHome name='home'>
             <Container>
                 <Information>
-                    <Subtitle>Hello, My Name is</Subtitle>
+                    <Subtitle>Hola, Mi nombre es</Subtitle>
                     <Title>Brayan Rodriguez Montealegre</Title>
                     <Caption>
                         <Typed
                             strings={[
-                                'Frontend Developer',
-                                'Software Engineering Student'
+                                'Desarrollador Frontend',
+                                'Estudiante de Ingeniería de Software'
                             ]}
                             typeSpeed={60}
                             backSpeed={60}

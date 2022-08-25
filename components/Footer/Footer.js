@@ -7,7 +7,7 @@ const Footer = () => {
             <Container>
                 <hr></hr>
                 <FooterInfo>
-                    Made with ❤️ by <FooterSpan>Brayan Rodriguez Montealegre</FooterSpan>
+                    Hecho con ❤️ por <FooterSpan>Brayan Rodriguez Montealegre</FooterSpan>
                 </FooterInfo>
                 <Social>
                     <SocialLink

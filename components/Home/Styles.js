@@ -21,7 +21,6 @@ export const Container = styled.div`
 `
 
 export const Information = styled.div`
-
     @media only screen and (max-width: 768px) {
         padding-top: 3rem;
     }    

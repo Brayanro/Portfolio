@@ -78,7 +78,7 @@ export const CardInformation = styled.div`
 `
 
 export const CardTitle = styled.h3`
-  color: #222831;
+  color: #00ADB5;
   letter-spacing: .12rem;
   text-transform: uppercase;
 `

@@ -4,7 +4,7 @@ import { AboutMe, BackgroundPhoto, ButtonContainer, ButtonCV, Container, Contain
 const About = () => {
     return (
         <ContainerAbout name='about'>
-            <Title>About Me</Title>
+            <Title>Sobre mi</Title>
             <Container>
                 <ContainerPhoto>
                     <BackgroundPhoto>
@@ -12,12 +12,12 @@ const About = () => {
                     </BackgroundPhoto>
                 </ContainerPhoto>
                 <Description>
-                    <AboutMe>I am a frontend developer with knowledge in web technologies. Passionate about software development, good code and design practices, I keep in constant learning. I consider myself a persistent, cooperative, productive person who loves to work in a team. I am a software engineering student and I am currently in the eighth semester.</AboutMe>
+                    <AboutMe>Desarrollador frontend con dominio en tecnologías web, con conocimientos en frameworks como React, Next.js, Bootstrap, Tailwind.Apasionado por el desarrollo de software, las buenas prácticas de código y diseño; mantengo en constante aprendizaje. Proactivo, colaborador y con la capacidad de trabajar en equipo. Soy estudiante de ingeniería de software y actualmente estoy en el noveno semestre.</AboutMe>
                     <br />
-                    <b>Education:</b>
+                    <b>Educación:</b>
                     <Education>
                         <EducationItem>
-                            Software Engineering - Universidad Surcolombiana - Actually
+                            Ingeniería de Software - Universidad Surcolombiana - Actualmente
                         </EducationItem>
                         <EducationItem>
                             GIT+GitHub: Todo un sistema de control de versiones de cero - 2022
@@ -31,7 +31,7 @@ const About = () => {
                     </Education>
                     <ButtonContainer>
                         <ButtonCV href='/cv.pdf' download>
-                            Download CV<IoDownloadOutline />
+                            Descargar CV<IoDownloadOutline />
                         </ButtonCV>
                     </ButtonContainer>
                 </Description>

@@ -56,6 +56,7 @@ export const Description = styled.div`
 `
 
 export const AboutMe = styled.p`
+  letter-spacing: 0.04rem;
 `
 
 export const Education = styled.ul`

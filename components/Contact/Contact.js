@@ -18,7 +18,7 @@ const Contact = () => {
                 console.log(error.text);
             });
         e.target.reset();
-        toast.success('Message Sent!',
+        toast.success('Mensaje Enviado!',
             {
                 position: 'top-center',
                 duration: 2000,
@@ -34,25 +34,25 @@ const Contact = () => {
 
     return (
         <ContainerContact name='contact'>
-            <Title>Contact</Title>
-            <Subtitle>Get in touch</Subtitle>
+            <Title>Contacto</Title>
+            <Subtitle>Ponte en contacto</Subtitle>
             <Container>
                 <ContactImage src='/contact.svg' />
                 <ContainerForm>
                     <ContactForm ref={form} onSubmit={sendEmail}>
                         <ContactContent>
-                            <Label>Name</Label>
+                            <Label>Nombre</Label>
                             <Input type='text' name='user_name' required />
                         </ContactContent>
                         <ContactContent>
-                            <Label>Email</Label>
+                            <Label>Correo electrónico</Label>
                             <Input type='email' name='user_email' required />
                         </ContactContent>
                         <ContactContent>
-                            <Label>Message</Label>
+                            <Label>Mensaje</Label>
                             <TextArea name='message' cols='0' rows='6' required />
                         </ContactContent>
-                        <ContactButton type='submit'>Send Message<IoSend /></ContactButton>
+                        <ContactButton type='submit'>Enviar Mensaje<IoSend /></ContactButton>
                         <Toaster />
                     </ContactForm>
                 </ContainerForm>

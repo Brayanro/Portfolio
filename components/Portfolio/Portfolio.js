@@ -5,7 +5,7 @@ import { ButtonCode, ButtonContainer, ButtonVisit, Card, CardDescription, CardIn
 const Portfolio = () => {
     return (
         <ContainerPortfolio name='portfolio'>
-            <Title>Portfolio</Title>
+            <Title>Portafolio</Title>
             <Container>
                 <Card>
                     {
@@ -26,7 +26,7 @@ const Portfolio = () => {
                                             rel='noopener'
                                             href={hrefcode}
                                             target='_blank'>
-                                            Code<IoOpenOutline />
+                                            Código<IoOpenOutline />
                                         </ButtonCode>
                                     </ButtonContainer>
                                 </CardInformation>

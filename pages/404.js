@@ -6,11 +6,11 @@ const PageNotFound = () => {
         <ContainerNotFound>
             <Image src='/404.png' alt='Error 404' />
             <NotFoundText>
-                <Text>Ooops! <br />Page Not Found.</Text>
-                <Span>This page doesn&apos;t exist or was removed! <br /> I suggest you back to home</Span>
+                <Text>Ooops! <br />Página no encontrada</Text>
+                <Span>Esta página fue removida o no existe! <br /> Te sugiero que regreses al inicio</Span>
                 <ContainerButton>
-                    <Link href='/'>
-                        <ButtonHome>Back to Home</ButtonHome>
+                    <Link href='/' passHref>
+                        <ButtonHome>Regresar al inicio</ButtonHome>
                     </Link>
                 </ContainerButton>
             </NotFoundText>
