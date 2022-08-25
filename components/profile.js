@@ -53,19 +53,19 @@ export const portfolio = [
     {
         title: 'Devcode',
         image: 'devcode.png',
-        description: 'Red social construida con React,Node,Express,Mongo,Bootstrap',
+        description: 'Red social construida con React, Node, Express, Mongo, Bootstrap, Socket.io',
         hrefdemo: 'http://www.devcode.live/',
         hrefcode: 'https://github.com/AndresCastillo28/Devcode'
     },
     {
-        title: 'Netflix Clon',
+        title: 'Clon de Netflix',
         image: 'netflix.png',
-        description: 'Clon de Netflix construido con React, Tailwind CSS, Firebase backend',
+        description: 'Clon de Netflix construido con React, Tailwind CSS, Firebase',
         hrefdemo: 'https://netflix-clone-react-7f61d.firebaseapp.com/',
         hrefcode: 'https://github.com/Brayanro/Netflix-clone'
     },
     {
-        title: 'Rick and Morty',
+        title: 'Rick y Morty',
         image: 'rickandmorty.png',
         description: 'Sitio de Rick y Morty construido con React, Tailwind CSS, DaisyUI, ViteJS',
         hrefdemo: 'https://brayanro.github.io/rick-and-morty/',
@@ -74,7 +74,7 @@ export const portfolio = [
     {
         title: 'Portafolio',
         image: 'portfolio.png',
-        description: 'Sitio web personal construido con with Next.js, Styled-Components',
+        description: 'Sitio web personal construido con Next.js y Styled-Components',
         hrefdemo: 'https://portfolio-brayanro.vercel.app',
         hrefcode: 'https://github.com/Brayanro/Portfolio'
     },
@@ -86,17 +86,10 @@ export const portfolio = [
         hrefcode: 'https://github.com/Brayanro/Gym-New'
     },
     {
-        title: 'Weather App',
+        title: 'Aplicación del clima',
         image: 'weather.png',
-        description: 'Sitio web del clima construido con HTML, CSS, JavaScript',
+        description: 'Sitio web del clima construido con HTML, CSS y JavaScript',
         hrefdemo: 'https://brayanro.github.io/Weather-App-JavaScript/',
         hrefcode: 'https://github.com/Brayanro/Weather-App-JavaScript'
-    },
-    {
-        title: 'Huddle Landing Page',
-        image: 'huddle.png',
-        description: 'Landing Page del reto de Frontend Mentor construido con HTML, CSS',
-        hrefdemo: 'https://brayanro.github.io/Huddle-landing-page/',
-        hrefcode: 'https://github.com/Brayanro/Huddle-landing-page'
     }
 ]
